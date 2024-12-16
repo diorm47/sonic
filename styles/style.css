@@ -1,0 +1,651 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background: rgb(8, 9, 73);
+}
+
+.main_wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+nav {
+  padding-top: 36px;
+  margin-bottom: 80px;
+}
+
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.nav_menu p {
+  color: rgb(255, 255, 255);
+  font-family: Irish Grover;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.buy_now {
+  position: relative;
+  width: 246.32px;
+  height: 53.55px;
+}
+.buy_now img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_motto p {
+  color: rgb(255, 255, 255);
+  font-family: Jolly Lodger;
+  font-size: 52.55px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header_motto {
+  padding: 8px 72px 8px 35px;
+  margin-bottom: 35px;
+  background: linear-gradient(
+    90deg,
+    rgb(230, 59, 52) 15.75%,
+    rgba(199, 74, 69, 0.8) 71.826%,
+    rgba(230, 59, 52, 0) 100%
+  );
+}
+.header_text h1 {
+  color: rgb(255, 255, 255);
+  font-family: Irish Grover;
+  font-size: 200px;
+  font-weight: 400;
+  line-height: 242px;
+  letter-spacing: 4%;
+  text-align: left;
+}
+
+.header_text h3 {
+  color: rgb(255, 255, 255);
+  font-family: Jua;
+  font-size: 26.28px;
+  font-weight: 400;
+  line-height: 121%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header_left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 740px;
+}
+
+.header_wrapper {
+  position: relative;
+}
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+}
+.header_socials_wrapper {
+  position: absolute;
+  right: -100px;
+}
+
+.socials_bg {
+  position: absolute;
+  top: 50%;
+  margin-top: -330px;
+}
+.header_social_item {
+  position: relative;
+}
+.header_right {
+  width: 50%;
+  position: relative;
+}
+.header_right img {
+  width: 110%;
+}
+
+header {
+  padding-bottom: 170px;
+  background: url(../assets/images/bg_objects.png);
+  background-size: cover;
+  position: relative;
+}
+.charging {
+  background: url(../assets/images/bg_objects.png);
+  background-size: cover;
+}
+
+.header_container,
+.charging_container {
+  background: url(../assets/images/dots.png);
+  background-size: cover;
+}
+.h_btm {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 668px;
+  height: 529px;
+  filter: blur(1000px);
+  background: rgb(255, 9, 0);
+}
+
+.h_top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 668px;
+  height: 686px;
+  filter: blur(1000px);
+  background: rgb(218, 31, 24);
+}
+
+.header_wrapper,
+nav {
+  position: relative;
+  z-index: 1;
+}
+.label {
+  margin-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+.label img {
+  width: 112%;
+  margin-left: -60px;
+}
+
+.header_btns {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.header_btn {
+  cursor: pointer;
+}
+.humor_page {
+  padding: 100px 0 200px;
+}
+.humore_title h2 {
+  color: rgb(255, 255, 255);
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
+.humore_title_btm div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+  padding-bottom: 14px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.humore_title_btm {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.humore_title_btm h3 {
+  background: linear-gradient(0deg, rgb(255, 8, 69), rgb(255, 64, 64));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.humore_title_btm p {
+  color: rgb(255, 255, 255);
+  font-family: Jua;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 2px;
+  text-align: right;
+  text-transform: lowercase;
+}
+
+.humore_title {
+  margin-bottom: 80px;
+}
+.humor_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.humor_card img {
+  width: 100%;
+}
+.humor_w {
+  background: url(../assets/images/bg_objects.png);
+  background-size: cover;
+}
+.line img {
+  width: 100%;
+}
+.line {
+  margin-top: 30px;
+}
+.humor_desc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: -19px;
+}
+.humor_desc_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.humor_desc_item h4 {
+  margin: 10px auto 7px;
+  background: linear-gradient(0deg, rgb(255, 8, 69), rgb(255, 64, 64));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Jolly Lodger;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.humor_desc_item p {
+  color: rgb(255, 255, 255);
+  font-family: Jua;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: lowercase;
+  max-width: 277px;
+}
+
+.humor_w {
+  position: relative;
+}
+.humor_btm,
+.humor_top {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 668px;
+  height: 686px;
+  filter: blur(1000px);
+  background: rgb(255, 9, 0);
+}
+.humor_top {
+  top: 0;
+  right: 0;
+  left: auto;
+  bottom: auto;
+}
+
+.humor_page {
+  position: relative;
+  z-index: 1;
+}
+
+.memes_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.memes_wrapper {
+  margin-top: -150px;
+  position: relative;
+}
+.memes_desc p {
+  color: rgb(255, 255, 255);
+  font-family: Jua;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 127%;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 44px;
+}
+
+.memes_desc {
+  position: relative;
+  max-width: 950px;
+  margin: 0 auto;
+}
+.memes_desc_icon_top {
+  position: absolute;
+}
+.memes_desc_icon_btm {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+}
+
+.memes_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  margin-top: -30px;
+}
+.charging_title h2 {
+  color: rgb(255, 255, 255);
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
+.charging_title h2 span {
+  background: linear-gradient(0deg, rgb(255, 8, 69), rgb(255, 64, 64));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 350px;
+}
+
+.charging_cards {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.charging_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0px 50px 0px 50px;
+  height: 207px;
+  width: 100%;
+  backdrop-filter: blur(6px);
+  background: rgba(195, 41, 30, 0.4);
+  padding-top: 26px;
+  margin-bottom: 48px;
+}
+
+.charging_card img {
+  margin-bottom: 12px;
+}
+.charging_card p {
+  color: rgb(255, 255, 255);
+  font-family: Jolly Lodger;
+  font-size: 52.55px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.charging_card_sec {
+  border-radius: 0px 50px 0px 50px;
+
+  backdrop-filter: blur(6px);
+  background: rgba(230, 59, 52, 0.51);
+}
+
+.charging {
+  position: relative;
+  overflow: hidden;
+}
+.contacts {
+  display: flex;
+  align-items: start;
+}
+.contacts_desc h2 {
+  color: rgb(255, 255, 255);
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 20px;
+}
+.contacts_desc h2 span {
+  background: linear-gradient(0deg, rgb(255, 8, 69), rgb(255, 64, 64));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 35px;
+}
+
+.contacts_desc p,
+.contacts_desc p a {
+  color: rgb(255, 255, 255);
+  font-family: Jua;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 127%;
+  letter-spacing: 0px;
+
+  margin-bottom: 11px;
+}
+
+.contacts_desc p span {
+  background: linear-gradient(0deg, rgb(255, 8, 69), rgb(255, 64, 64));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Jua;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 127%;
+  letter-spacing: 0px;
+
+  padding-right: 14px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+.social_item {
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Red */
+  background: linear-gradient(0deg, rgb(255, 8, 69), rgb(255, 64, 64) 100%);
+}
+
+.sonic_btm_img {
+  position: absolute;
+  left: -50px;
+}
+.contacts_desc {
+  padding-left: 500px;
+  padding-top: 170px;
+  padding-bottom: 110px;
+  position: relative;
+}
+
+.charging,
+.charging_container {
+  position: relative;
+}
+.charging_container {
+  z-index: 1;
+}
+
+.memes_list {
+  background: #ffffff11;
+}
+.about_page {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.about_right {
+  width: 55%;
+  position: relative;
+  z-index: 1;
+}
+.about_title h2 {
+  color: rgb(255, 255, 255);
+  font-family: Irish Grover;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: -200px;
+}
+
+.about_title h3 {
+  background: linear-gradient(0deg, rgb(255, 8, 69), rgb(255, 64, 64));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Irish Grover;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-align: left;
+}
+.about_right_desc {
+  margin-top: 50px;
+}
+
+.about_right_desc p {
+  color: rgb(255, 255, 255);
+  font-family: Jua;
+  font-size: 26.28px;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.about_block {
+  position: relative;
+  margin-top: -160px;
+  padding-top: 160px;
+  padding-bottom: 150px;
+}
+
+.about_block_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.label {
+  z-index: 2;
+}
+
+.memes_list {
+  padding-bottom: 80px;
+}
+.charging {
+  margin-top: -100px;
+  z-index: 2;
+}
+.memes_top_vec {
+  position: absolute;
+  top: 300px;
+}
+.memes_bottom_vec {
+  position: absolute;
+  bottom: 300px;
+  transform: rotate(-16.62deg);
+  width: 100%;
+}
+
+.memes_list {
+  z-index: 2;
+}
+.memes_list img {
+  position: relative;
+  z-index: 2;
+}
