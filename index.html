@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="./favicon/site.webmanifest" />
     <title>$Sonic</title>
     <link rel="stylesheet" href="./styles/style.css" />
@@ -51,6 +65,9 @@
                 <div class="buy_now">
                   <img src="./assets/images/buy-now.svg" alt="" /></div
               ></a>
+              <div class="mob_menu_btn">
+                <img  onclick="toggleModal()" src="./assets/icons/mob-menu.svg" alt="" />
+              </div>
             </div>
           </nav>
           <div class="header_wrapper container">
@@ -314,5 +331,51 @@
         <div class="humor_btm"></div>
       </section>
     </div>
+    <div class="mob_menu">
+      <div class="mob_menu_wrapper">
+        <div class="exit_btn">
+          <img onclick="toggleModal()" src="./assets/icons/exit.svg" alt="" />
+        </div>
+        <div class="nav_menu">
+          <a href="#">
+            <div class="nav_item">
+              <p>Home</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="nav_item">
+              <p>About $SONIC</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="nav_item">
+              <p>Charge $SONIC</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="nav_item">
+              <p>Best Memes</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="nav_item">
+              <p>Contacts</p>
+            </div>
+          </a>
+        </div>
+        <a href="#" class="buy_now_btn">
+          <div class="buy_now">
+            <img src="./assets/images/buy-now.svg" alt="" /></div
+        ></a>
+      </div>
+    </div>
+
+    <script>
+      function toggleModal() {
+        document
+          .querySelector(".mob_menu")
+          .classList.toggle("visible_mob_menu");
+      }
+    </script>
   </body>
 </html>
