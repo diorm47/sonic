@@ -703,6 +703,7 @@ nav {
   justify-content: start;
   padding-top: 40px;
 }
+.mob_menu_wrapper
 .nav_menu {
   display: flex;
   flex-direction: column;
