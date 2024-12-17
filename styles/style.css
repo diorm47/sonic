@@ -653,6 +653,22 @@ nav {
 }
 
 @media only screen and (max-width: 1650px) {
+  .about_title {
+    padding-top: 20px;
+  }
+  .about_title h2, .about_title h3 {
+    font-size: 100px;
+    line-height: 100%;
+  }
+  .about_title img {
+    width: 340px;
+  }
+  .about_right_desc {
+    margin-top: 30px;
+  }
+  .about_right_desc p {
+    font-size: 20px;
+  }
   .header_right img {
     width: 90%;
   }
