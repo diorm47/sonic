@@ -94,7 +94,8 @@ nav {
   );
 }
 .header_text h1 {
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+  color: blue;
   font-family: Irish Grover;
   font-size: 200px;
   font-weight: 400;
@@ -274,6 +275,10 @@ nav {
 }
 .humor_card img {
   width: 100%;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 8, 69);
+  height: 310px;
+  object-fit: cover;
 }
 .humor_w {
   background: url(../assets/images/bg_objects.png);
@@ -950,5 +955,8 @@ nav {
   }
   .label {
     display: none;
+  }
+  .humor_card img {
+    height: auto;
   }
 }
