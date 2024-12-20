@@ -805,7 +805,7 @@ nav {
   }
   .socials_bg {
     transform: rotate(90deg);
-    left: 80px;
+    left: -35px;
   }
   header {
     padding-bottom: 80px;
